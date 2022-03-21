@@ -1,0 +1,24 @@
+{
+  /**
+   * TODO: Migrate functions so that they are using typescipt.
+   *       At the momment, this file is just used to improve
+   *       type hinting for the JS functions.
+   */
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "target": "es6",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "lib": ["esnext"],
+    "typeRoots": ["../node_modules/@types", "types", "node_modules/@types"],
+    "paths": {
+      "@src/*": ["../src/*"]
+    }
+  },
+  "files": ["index.js"]
+}
